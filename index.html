@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Hub | Books &amp; Publications by Sonny Saggar</title>
+  <meta name="description" content="Explore books by Sonny Saggar, including GROUND: How to Lose Everything and Still Have Somewhere to Stand, and upcoming titles.">
+  <meta name="perplexitybot" content="follow, index">
+  <meta name="deepseekbot" content="follow, index">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+  
+  <!-- Dataset Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Sonny Saggar MD Publications and Stoic Manuals Dataset",
+    "description": "Structured repository containing summaries, schemas, and research details of GROUND and THE ROAD.",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": {
+      "@type": "Person",
+      "name": "Sonny Saggar, MD"
+    }
+  }
+  </script>
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hub.newphysician.org">
+  <meta property="og:title" content="The Hub | Books &amp; Publications by Sonny Saggar">
+  <meta property="og:description" content="Explore GROUND, a manual on surviving sudden collapse drafted inside a federal prison camp, and the forthcoming guide THE ROAD.">
+  <meta property="og:image" content="https://images-na.ssl-images-amazon.com/images/P/B0H7M7TK1V.01.LZZZZZZZ.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://hub.newphysician.org">
+  <meta property="twitter:title" content="The Hub | Books &amp; Publications by Sonny Saggar">
+  <meta property="twitter:description" content="Explore GROUND, a manual on surviving sudden collapse drafted inside a federal prison camp, and the forthcoming guide THE ROAD.">
+  <meta property="twitter:image" content="https://images-na.ssl-images-amazon.com/images/P/B0H7M7TK1V.01.LZZZZZZZ.jpg">
+
+  <link rel="canonical" href="https://hub.newphysician.org">
+
+  <style>
+    :root {
+      --bg-color: #0d0f12;
+      --card-bg: rgba(22, 26, 33, 0.7);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent-color: #d97706; /* Warm amber */
+      --accent-hover: #b45309;
+      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: 'Outfit', sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 2rem 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border-color);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(13, 15, 18, 0.8);
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 800;
+      letter-spacing: 1px;
+      color: var(--text-main);
+      text-decoration: none;
+    }
+
+    .logo span {
+      color: var(--accent-color);
+    }
+
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      margin-left: 2rem;
+      font-weight: 500;
+      transition: var(--transition);
+    }
+
+    nav a:hover {
+      color: var(--text-main);
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 4rem 5%;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      margin-bottom: 5rem;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      letter-spacing: -1px;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.25rem;
+      max-width: 700px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .tagline {
+      font-style: italic;
+      color: var(--accent-color);
+      font-size: 1.15rem;
+      margin-bottom: 2rem;
+      display: block;
+    }
+
+    /* Book Catalog Grid */
+    .catalog-title {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      border-left: 4px solid var(--accent-color);
+      padding-left: 1rem;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2.5rem;
+      margin-bottom: 6rem;
+    }
+
+    .book-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: var(--transition);
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .book-card:hover {
+      transform: translateY(-8px);
+      border-color: rgba(217, 119, 6, 0.4);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .cover-container {
+      height: 480px;
+      background: #111827;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ground-cover {
+      background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+    }
+
+    .badge {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: var(--accent-color);
+      color: #fff;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      z-index: 10;
+    }
+
+    .badge.soon {
+      background: #4b5563;
+    }
+
+    .book-info {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .book-info h3 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .book-info .subtitle {
+      color: var(--accent-color);
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .book-info p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+      flex-grow: 1;
+    }
+
+    .actions {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      text-align: center;
+      padding: 0.75rem 1.5rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background: var(--accent-color);
+      color: #fff;
+      border: none;
+      flex-grow: 1;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--text-main);
+      border: 1px solid var(--border-color);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: var(--text-muted);
+    }
+
+    /* Content Section Formatting */
+    .content-section {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 3.5rem;
+      margin-bottom: 6rem;
+    }
+
+    .content-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.25rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .content-section h3 {
+      font-size: 1.4rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      color: var(--accent-color);
+    }
+
+    .section-body {
+      max-width: 850px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      color: #d1d5db;
+    }
+
+    .section-body p {
+      margin-bottom: 1.5rem;
+    }
+
+    .section-body ul {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+    }
+
+    .section-body li {
+      margin-bottom: 0.5rem;
+    }
+
+    .essay-signature {
+      margin-top: 2.5rem;
+      font-style: italic;
+      color: var(--text-main);
+      text-align: right;
+    }
+
+    /* FAQ Section */
+    .faq-section {
+      margin-bottom: 6rem;
+    }
+
+    .faq-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      max-width: 850px;
+      margin: 2rem auto 0;
+    }
+
+    .faq-item {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+
+    .faq-item h4 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: var(--text-main);
+    }
+
+    .faq-item p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* About Section */
+    .about-section {
+      display: flex;
+      gap: 4rem;
+      align-items: center;
+      margin-bottom: 6rem;
+    }
+
+    .about-photo {
+      flex: 0 0 240px;
+      width: 240px;
+      height: 240px;
+      border-radius: 16px;
+      object-fit: cover;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    .about-text {
+      flex: 1;
+    }
+
+    .about-text h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .about-text p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Testimonials Section */
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .testimonial-card {
+      background: rgba(13, 15, 18, 0.6);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 2rem;
+      font-style: italic;
+      position: relative;
+    }
+
+    .testimonial-card p {
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    }
+
+    .testimonial-author {
+      font-weight: 600;
+      color: var(--accent-color);
+      font-style: normal;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* SSRN Papers Section */
+    .paper-list {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .paper-item {
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 2rem;
+    }
+
+    .paper-item:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .paper-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--text-main);
+      text-decoration: none;
+      display: block;
+      margin-bottom: 0.5rem;
+      transition: var(--transition);
+    }
+
+    .paper-title:hover {
+      color: var(--accent-color);
+    }
+
+    .paper-meta {
+      font-size: 0.85rem;
+      color: var(--accent-color);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 0.75rem;
+    }
+
+    .paper-desc {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    /* Newsletter Form */
+    .newsletter-form {
+      display: flex;
+      gap: 1rem;
+      max-width: 500px;
+      margin: 2rem auto 0;
+    }
+
+    .newsletter-input {
+      flex: 1;
+      background: rgba(13, 15, 18, 0.6);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      color: var(--text-main);
+      font-family: inherit;
+    }
+
+    .newsletter-input:focus {
+      outline: none;
+      border-color: var(--accent-color);
+    }
+
+    /* Media Kit & Downloads */
+    .downloads-section {
+      background: linear-gradient(135deg, rgba(22, 26, 33, 0.4) 0%, rgba(13, 15, 18, 0.6) 100%);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 3rem;
+      text-align: center;
+    }
+
+    .downloads-grid {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+
+    .download-card {
+      background: rgba(13, 15, 18, 0.6);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 2rem;
+      width: 280px;
+      transition: var(--transition);
+    }
+
+    .download-card:hover {
+      border-color: var(--accent-color);
+      transform: translateY(-4px);
+    }
+
+    .download-card h4 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .download-card p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem;
+    }
+
+    footer {
+      border-top: 1px solid var(--border-color);
+      padding: 3rem 5%;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .about-section {
+        flex-direction: column;
+        text-align: center;
+      }
+      .essay-section {
+        padding: 2rem;
+      }
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+      .newsletter-form {
+        flex-direction: column;
+      }
+    }
+  </style>
+
+  <!-- Combined JSON-LD Schema Markup -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://newphysician.org/#person",
+      "name": "Sonny Saggar, MD",
+      "jobTitle": "Physician and Author",
+      "alumniOf": [
+        { "@type": "EducationalOrganization", "name": "University of Oxford" },
+        { "@type": "EducationalOrganization", "name": "St. Bartholomew's Hospital Medical College" }
+      ],
+      "founder": {
+        "@type": "Organization",
+        "name": "The New Physician",
+        "url": "https://newphysician.org"
+      },
+      "sameAs": [
+        "https://www.goodreads.com/author/show/151.Sonny_Saggar",
+        "https://medium.com/@saggarsonny",
+        "https://substack.com/@drsonny",
+        "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=10558116"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "@id": "https://hub.newphysician.org/#ground-book",
+      "name": "GROUND: How to Lose Everything and Still Have Somewhere to Stand",
+      "productID": "ASIN: B0H7M7TK1V",
+      "author": { "@type": "Person", "@id": "https://newphysician.org/#person" },
+      "bookFormat": "https://schema.org/EBook",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.amazon.com/dp/B0H7M7TK1V",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "@id": "https://hub.newphysician.org/#the-road-book",
+      "name": "THE ROAD: A Calm Guide to Facing Criminal Charges, for the People Inside It and the Families Beside Them",
+      "author": { "@type": "Person", "@id": "https://newphysician.org/#person" },
+      "datePublished": "2026-07-27",
+      "bookFormat": ["https://schema.org/EBook", "https://schema.org/Hardcover", "https://schema.org/Paperback"],
+      "comment": "With a guest chapter by Thomas Webster, MD"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://hub.newphysician.org/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is GROUND about?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GROUND is a short book about what is left of a person once everything that defined them is gone. Sonny Saggar began it by hand inside a federal prison camp and finished it after his release. It separates losing things from being lost, and argues a person can build a self that cannot be confiscated."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How was GROUND written?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "By hand, in pen, on the paper allowed inside a federal prison camp. Saggar finished it after his release from custody."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is Sonny Saggar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sonny Saggar trained at Oxford and at St. Bartholomew's Hospital Medical College and spent twenty five years practicing emergency medicine before a federal indictment and incarceration. He writes about professional licensing and administrative law."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is THE ROAD about?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "THE ROAD is a calm, practical guide to facing criminal charges, covering the process from the first week after an indictment through sentencing, incarceration, and the return home. It covers state and federal cases, and is written for defendants and the families beside them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does THE ROAD differ from GROUND?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GROUND is about the internal stance a person holds after collapse. THE ROAD is the practical map of the process itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When does THE ROAD launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "July 27, 2026, in Kindle and paperback on Amazon, with a hardcover to follow."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is Thomas Webster, MD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A physician who contributed a guest chapter to THE ROAD."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://newphysician.org/#website",
+      "url": "https://newphysician.org",
+      "name": "The New Physician",
+      "publisher": { "@type": "Person", "@id": "https://newphysician.org/#person" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "@id": "https://hub.newphysician.org/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://newphysician.org" },
+        { "@type": "ListItem", "position": 2, "name": "The Hub", "item": "https://hub.newphysician.org" }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "@id": "https://hub.newphysician.org/#collection",
+      "url": "https://hub.newphysician.org",
+      "name": "The Hub Catalog",
+      "description": "Books and publications by Sonny Saggar, MD",
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "item": { "@id": "https://hub.newphysician.org/#ground-book" } },
+          { "@type": "ListItem", "position": 2, "item": { "@id": "https://hub.newphysician.org/#the-road-book" } }
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id": "https://hub.newphysician.org/#essay",
+      "headline": "Why I Wrote GROUND by Hand in a Federal Prison Camp",
+      "author": { "@type": "Person", "@id": "https://newphysician.org/#person" },
+      "publisher": { "@type": "Person", "@id": "https://newphysician.org/#person" },
+      "mainEntityOfPage": "https://hub.newphysician.org"
+    }
+  ]
+  </script>
+</head>
+<body>
+
+  <header>
+    <a href="https://newphysician.org" class="logo">The New<span>Physician</span></a>
+    <nav>
+      <a href="https://newphysician.org">Home</a>
+      <a href="https://hub.newphysician.org">The Hub</a>
+      <a href="https://medium.com/@saggarsonny" target="_blank">Medium</a>
+      <a href="https://substack.com/@drsonny" target="_blank">Substack</a>
+      <a href="https://www.goodreads.com/author/dashboard?ref=nav_profile_authordash" target="_blank">Goodreads</a>
+      <a href="/speaking">Speaking & Media</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Section 1: Hero Section -->
+    <section class="hero">
+      <h1>The Hub</h1>
+      <p>Books and essays about what happens when a life comes apart, and what a person can still stand on afterward.</p>
+      <span class="tagline">"The floor goes for everyone eventually."</span>
+    </section>
+
+    <!-- Section 2: Book Catalog Grid -->
+    <h2 class="catalog-title">Publications</h2>
+    <div class="grid">
+      <!-- GROUND Card -->
+      <a href="https://www.amazon.com/dp/B0H7M7TK1V" class="book-card" target="_blank">
+        <div class="cover-container ground-cover">
+          <span class="badge">Out Now</span>
+          <img src="/ground_new_cover.jpg" alt="GROUND by Sonny Saggar, MD - How to Lose Everything and Still Have Somewhere to Stand" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <div class="book-info">
+          <h3>GROUND</h3>
+          <div class="subtitle">How to Lose Everything and Still Have Somewhere to Stand</div>
+          <p>A short book about what is left of a person once everything that defined them is gone. Begun by hand inside a federal prison camp, finished after release.</p>
+          <div class="actions">
+            <span class="btn btn-primary">Buy on Amazon</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- The Road Card -->
+      <div class="book-card">
+        <div class="cover-container">
+          <span class="badge soon">Coming July 27, 2026</span>
+          <img src="/The_Road_Cover_EB.jpg" alt="THE ROAD by Sonny Saggar, MD - A Calm Guide to Facing Criminal Charges" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <div class="book-info">
+          <h3>The Road</h3>
+          <div class="subtitle">A Calm Guide to Facing Criminal Charges, for the People Inside It and the Families Beside Them</div>
+          <p>A practical, step-by-step navigation guide through the federal criminal justice system, from the first knock on the door to the years of supervised release. Includes a guest chapter by Thomas Webster, MD.</p>
+          <div class="actions">
+            <button class="btn btn-secondary" style="width: 100%;">Coming Soon</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2 Expanded: About GROUND -->
+    <section class="content-section">
+      <h2>About GROUND</h2>
+      <div class="section-body">
+        <p>GROUND: How to Lose Everything and Still Have Somewhere to Stand is written from inside the experience of losing everything at once, not from a safe distance looking back. It's short, meant to be read in one sitting, closer to a long honest letter than a self help book.</p>
+        <p>Most books on resilience are written well after the fact, with the smoothing that hindsight provides. This one wasn't. It started by hand, in a federal prison camp, while a twenty five year medical career came apart on the outside. It doesn't offer easy comfort, and it has no patience for the idea that everything happens for a reason. What it offers is a way to stand when there's nothing solid left underfoot.</p>
+        <p>The book's central distinction is between losing things and being lost. You can't stop status, money, or freedom from being taken when the system moves against you. You can decide whether you lose your own direction along with them.</p>
+        
+        <h3>Book Details</h3>
+        <ul>
+          <li><strong>Format</strong>: Kindle, paperback, hardcover</li>
+          <li><strong>ASIN</strong>: B0H7M7TK1V</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section 3: Why I Wrote Ground Essay -->
+    <section class="content-section">
+      <h2>Why I Wrote GROUND by Hand in a Federal Prison Camp</h2>
+      <div class="section-body">
+        <p>I spent twenty five years practicing emergency medicine. People were glad to see me walk into a room. Then, in 2023, an indictment ended that. Arrested, sentenced, incarcerated, and the life I'd built was gone within the space of a single afternoon.</p>
+        <p>I began writing GROUND from inside a federal prison camp. No laptop, no quiet desk. A pen, paper, and the noise of a federal institution around me. I wrote by hand because that was what was allowed, and because it was the only tool I had left to hold onto my own mind while everything else came apart.</p>
+        <p>I wasn't writing because I had answers. I was asking a question. What is left of a person once the things that defined them are gone? No stethoscope, no license, no office, no routine that told me who I was. GROUND is that question, worked through in real time, under the pressure of confinement.</p>
+        <p>I finished it after my release from custody, with Thomas Webster's help shaping the raw material into something a reader could actually use. But the voice in it came from that camp, and I haven't tried to sand that down.</p>
+        <p>This isn't a book about bouncing back, and I don't use that phrase, because it implies you return to your old shape. You don't. There's no baseline left to bounce back to. GROUND is about building a new foundation out of whatever is left of your character, rather than waiting for a past that's gone.</p>
+        <p>I won't tell you everything happens for a reason. I don't believe it. That line gets said by people who haven't lost much, or who can't sit with the idea that suffering sometimes has no point behind it. What matters isn't why the floor gave way. It's where you choose to stand now that it has.</p>
+        <p>Here's what I will tell you. Your credentials, your bank account, your freedom, all of that can be taken by force. Your own stance toward what happened to you cannot. That's the line where the system's reach ends and yours begins.</p>
+        <p>GROUND was written for anyone standing in wreckage they didn't choose, whether that came from a courtroom, a divorce, or any other kind of collapse. My second book, THE ROAD, launches July 27, 2026. Where GROUND is about who you are while it happens, THE ROAD is the practical map of what actually happens, written for the person facing charges and for the family standing beside them. It includes a guest chapter by Thomas Webster, MD.</p>
+        
+        <div class="essay-signature">
+          Sonny Saggar
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: About THE ROAD -->
+    <section class="content-section">
+      <h2>About THE ROAD</h2>
+      <div class="section-body">
+        <p>More than a million people face serious criminal charges in the United States each year. Bookstores are full of guides for surviving a shark attack or a snakebite. Almost nothing exists for this far more common emergency, and even less for the families standing beside the person charged.</p>
+        <p>THE ROAD walks the whole process in plain language: the first week after an indictment, what a defense lawyer actually handles and what falls outside that, the presentence report, how sentencing really works, what happens to a career or a license, and the return home after release. It covers state and federal cases both, because most people facing charges are in state court, and most books on this subject ignore them entirely.</p>
+        <p>The book includes a guest chapter from Thomas Webster, MD, on managing the chronic stress a case places on a family over months or years.</p>
+        <p>I pleaded guilty, and this book doesn't relitigate that. It isn't legal advice, and I'm not anyone's lawyer. It's the map I wish someone had handed me the day this started, for the person living through it and for the person who loves them.</p>
+      </div>
+    </section>
+
+    <!-- Section 5: The Author -->
+    <section class="content-section">
+      <h2>About Sonny Saggar</h2>
+      <div class="section-body">
+        <p>Sonny Saggar trained in England, at Oxford and at St. Bartholomew's Hospital Medical College, then practiced emergency medicine in the United States for twenty five years, including a brief stretch as a hospital chief executive officer.</p>
+        <p>In 2023 he was indicted, and later incarcerated. He wrote GROUND by hand during that time and finished it after his release from custody. The experience turned his attention toward the regulatory systems, administrative law, and collateral consequences that govern professional life, and he now writes about those subjects. He lives in St. Louis, Missouri.</p>
+      </div>
+    </section>
+
+    <!-- Section 6: The SSRN Papers -->
+    <section class="content-section">
+      <h2>SSRN Academic Publications</h2>
+      <div class="section-body">
+        <p>In addition to his books, Sonny Saggar publishes academic papers on SSRN examining the intersection of administrative law, professional licensing, and federal healthcare enforcement. These papers provide the systemic analysis that forms the structural backdrop of GROUND and THE ROAD.</p>
+        
+        <div class="paper-list" id="ssrn-feed-container">
+          <div class="paper-item">
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6845420" class="paper-title" target="_blank">No One Can Own the Language of Medicine: The Legal and Economic Case for an Open, AI-native Standard for Coding Medical Interventions</a>
+            <div class="paper-meta">SSRN Abstract 6845420</div>
+            <p class="paper-desc">Examines the proprietary coding systems that dominate medical billing and proposes an open, AI-native coding standard to reduce administrative complexity and billing errors in healthcare systems.</p>
+          </div>
+
+          <div class="paper-item">
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6561881" class="paper-title" target="_blank">Knowingly and Willfully: How Federal Healthcare Fraud Enforcement Abandoned Its Own Statutory Standard</a>
+            <div class="paper-meta">SSRN Abstract 6561881</div>
+            <p class="paper-desc">Interprets the regulatory environment of healthcare billing. Analyzes how federal enforcement agencies have lowered the intent standard in healthcare billing audits, effectively criminalizing routine administrative errors without proving criminal intent.</p>
+          </div>
+
+          <div class="paper-item">
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6553338" class="paper-title" target="_blank">Restoring the Question: A Framework for Fairness, Proportionality, and Individualized Review in Private Professional Certification After Loper Bright</a>
+            <div class="paper-meta">SSRN Abstract 6553338</div>
+            <p class="paper-desc">Explores how the Supreme Court's Loper Bright decision restricts the authority of private credentialing boards to summarily strip professional licenses without providing individualized review and due process.</p>
+          </div>
+
+          <div class="paper-item">
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6363418" class="paper-title" target="_blank">When Intent Disappears: How Federal Health Care Enforcement Criminalizes Administrative Conduct</a>
+            <div class="paper-meta">SSRN Abstract 6363418</div>
+            <p class="paper-desc">A deep dive into the prosecutorial tools used in healthcare compliance audits, illustrating how administrative compliance has been transformed into a criminal liability trap for practicing physicians.</p>
+          </div>
+        </div>
+
+        <script>
+          fetch('/api/ssrn-feed')
+            .then(res => res.json())
+            .then(data => {
+              const container = document.getElementById('ssrn-feed-container');
+              if (container && data && data.length) {
+                container.innerHTML = '';
+                data.forEach(paper => {
+                  const item = document.createElement('div');
+                  item.className = 'paper-item';
+                  item.innerHTML = `
+                    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=${paper.id}" class="paper-title" target="_blank">${paper.title}</a>
+                    <div class="paper-meta">${paper.meta}</div>
+                    <p class="paper-desc">${paper.desc}</p>
+                  `;
+                  container.appendChild(item);
+                });
+              }
+            })
+            .catch(err => console.log('Error loading dynamic SSRN feed', err));
+        </script>
+      </div>
+    </section>
+
+
+    <!-- Section 8: FAQ Section -->
+    <section class="faq-section">
+      <h2 style="text-align: center; margin-bottom: 2rem;">Frequently Asked Questions</h2>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h4>What is the central theme of GROUND?</h4>
+          <p>It is a short book about rebuilding a life after sudden collapse, written from inside the experience rather than looking back on it from a safe distance.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Who should read GROUND?</h4>
+          <p>Anyone navigating professional disruption, legal crises, personal loss, or facing the breakdown of systems they trusted.</p>
+        </div>
+        <div class="faq-item">
+          <h4>How does GROUND connect to Sonny's SSRN papers?</h4>
+          <p>The SSRN papers examine private professional certification and the administrative architecture behind federal enforcement. GROUND is about the human experience of living inside that collapse rather than studying it from outside.</p>
+        </div>
+        <div class="faq-item">
+          <h4>What is THE ROAD about?</h4>
+          <p>THE ROAD is a practical, calm guide to the criminal justice process, covering everything from the initial knock on the door to the years of supervised release. It is written for defendants and their families.</p>
+        </div>
+        <div class="faq-item">
+          <h4>How does THE ROAD differ from GROUND?</h4>
+          <p>GROUND is a philosophical manual focusing on internal stance and personal recovery after collapse. THE ROAD is a practical, step-by-step navigation guide through the stages of the federal criminal justice system.</p>
+        </div>
+        <div class="faq-item">
+          <h4>When will THE ROAD be available?</h4>
+          <p>THE ROAD launches on July 27, 2026, and will be available in Kindle, paperback, and hardcover editions on Amazon.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Who is Thomas Webster, MD?</h4>
+          <p>Thomas Webster, MD, is a physician and co-author/contributor who has collaborated with Sonny Saggar. He contributed a guest chapter to the forthcoming book THE ROAD.</p>
+        </div>
+        <div class="faq-item">
+          <h4>What was it like writing a book in federal prison?</h4>
+          <p>It required writing by hand with a pen on paper inside crowded common areas. Writing was the only tool available to preserve focus and document the experience of sudden loss of agency.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Why did Sonny become a physician?</h4>
+          <p>Sonny trained at Oxford and St. Bartholomew's to practice medicine at the highest level of clinical complexity, a background that later informed his analytical approach to systemic regulatory failures.</p>
+        </div>
+        <div class="faq-item">
+          <h4>What is The New Physician?</h4>
+          <p>The New Physician is an platform and publication network founded by Sonny Saggar to examine professional integrity, medical systems complexity, and recovery from structural collapses.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 9: Media & Resources -->
+    <section class="downloads-section">
+      <h2>Media &amp; Resources</h2>
+      <p style="color: var(--text-muted); margin-bottom: 2rem;">Assets and downloads for interview hosts, reviewers, and readers.</p>
+      <div class="downloads-grid">
+        <div class="download-card">
+          <h4>Press Kit</h4>
+          <p>Author photos, high-res book covers, and book details sheet.</p>
+          <a href="#" class="btn btn-secondary">Download ZIP</a>
+        </div>
+        <div class="download-card">
+          <h4>Sample Chapter</h4>
+          <p>Read the opening chapter of GROUND in PDF format.</p>
+          <a href="#" class="btn btn-secondary">Download PDF</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Newsletter Subscription -->
+    <section class="downloads-section" style="margin-top: 4rem;">
+      <h2>Subscribe to Dispatches</h2>
+      <p>Receive updates and essays on systems complexity, Stoic recovery, and post-sentencing reform directly to your inbox.</p>
+      
+      <!-- Substack Embed Iframe -->
+      <div style="margin: 2rem auto; display: flex; justify-content: center;">
+        <iframe src="https://drsonny.substack.com/embed" width="480" height="320" style="border: 1px solid rgba(255,255,255,0.08); background: #161a21; border-radius: 12px;" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Sonny Saggar. All rights reserved. | <a href="https://newphysician.org" style="color: inherit; text-decoration: underline;">newphysician.org</a></p>
+  </footer>
+
+</body>
+</html>

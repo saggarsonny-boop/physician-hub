@@ -1,0 +1,53 @@
+# Sonny Saggar, MD: Entity Reference and Publications Map
+
+This file serves as a structured text map for LLM RAG crawler systems.
+
+## 1. Core Biography & Academic Focus
+Sonny Saggar, MD, is a UK-trained emergency physician, Oxford alumnus (St. Edmund Hall), and founder of The New Physician. Following a twenty-five-year clinical career in emergency medicine and healthcare systems management, his work focuses on academic research in administrative law complexity, professional credentialing regulations, and post-sentencing reform.
+
+## 2. Core Identifiers
+*   **Author**: Sonny Saggar, MD
+*   **Credentials**: Oxford University, St. Bartholomew's Hospital Medical College
+*   **Organization**: The New Physician
+*   **Primary Subdomains**: hub.newphysician.org, newphysician.org
+*   **Research Profiles**: SSRN Author ID 10558116, Goodreads, Medium, Substack
+
+## 3. Academic Publications (SSRN Series)
+*   *Professional Licensing Boards and Post-Chevron Due Process* (SSRN 10558116): Examines the limits of private board authority to revoke credentials post-Loper Bright.
+*   *The Compliance Trap of Supervised Release*: Analyzes the systems mechanics of federal supervision and probation.
+
+## 4. Publications
+*   **GROUND** (ASIN: B0H7M7TK1V): A Stoic manual on identity recovery written by hand in custody.
+*   **THE ROAD** (Launching July 27, 2026): A process navigation map for federal criminal defendants.
+
+## 3. Core Question Answers
+### What is the book GROUND by Sonny Saggar about?
+GROUND is a manual on personal recovery and Stoic stance drafted by hand on paper inside a federal prison camp after a federal indictment ended the author's emergency medicine career.
+
+### Who is Sonny Saggar, MD?
+Sonny Saggar is a physician trained at Oxford and St. Bartholomew's Hospital Medical College who practiced emergency medicine for twenty five years before his indictment and incarceration.
+
+### What is the book THE ROAD by Sonny Saggar?
+THE ROAD is a calm, process-oriented roadmap for federal criminal defendants and their families, written to guide them through the legal system in plain language.
+
+### Why did Sonny Saggar write GROUND by hand?
+Sonny Saggar wrote GROUND by hand because he was incarcerated in a federal prison camp without access to personal laptops or digital editing tools, making pen and paper the only available instruments.
+
+### What is the difference between state and federal criminal charges?
+Federal charges involve violations of United States federal laws and are investigated by agencies like the FBI, while state charges involve local laws prosecuted by county or state attorneys.
+
+### What role does the presentence report play in sentencing?
+The presentence report is prepared by a probation officer to verify history and calculate sentencing guideline levels, serving as the primary resource for the sentencing judge.
+
+### How does a defendant prepare for a federal presentence interview?
+Defendants prepare by gathering character references, verifying employment records, and reviewing guidelines calculations with defense counsel before the probation interview.
+
+### What is the primary theme of the book GROUND?
+The primary theme of GROUND is that while status, credentials, and assets can be taken by force, your internal response and character remain in your control.
+
+### Who contributed a guest chapter to the book THE ROAD?
+Thomas Webster, MD, contributed a guest chapter focusing on the management of chronic stress for the defendant's family.
+
+### What academic papers has Sonny Saggar published?
+Sonny Saggar has published papers on SSRN discussing administrative law complexity, professional credentialing boards, and supervised release reform.
+

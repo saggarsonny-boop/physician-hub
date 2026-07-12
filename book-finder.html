@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Finder Quiz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0d0f12;
+      color: #f3f4f6;
+      font-family: 'Outfit', sans-serif;
+      margin: 0;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .quiz-container {
+      max-width: 500px;
+      margin: 2rem auto;
+      background: rgba(22, 26, 33, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 2rem;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      background: #d97706;
+      color: white;
+      border: none;
+      padding: 0.75rem;
+      margin: 0.75rem 0;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .btn:hover {
+      background: #b45309;
+    }
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="quiz-container">
+    <h3>Which book matches your current challenge?</h3>
+    <button class="btn" onclick="showResult('road')">I am facing federal charges or supporting someone who is.</button>
+    <button class="btn" onclick="showResult('ground')">I am rebuilding my direction after career or personal collapse.</button>
+    <div id="result"></div>
+  </div>
+
+  <script>
+    function showResult(book) {
+      const res = document.getElementById('result');
+      res.style.display = 'block';
+      if (book === 'road') {
+        res.innerHTML = 'Recommendation: <strong>THE ROAD</strong>. This guide maps out bail, lawyers, sentencing guidelines, and supervised release in plain language.';
+      } else {
+        res.innerHTML = 'Recommendation: <strong>GROUND</strong>. This manual focuses on Stoic stance and finding your footing when credentials or status are gone.';
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,3 +1,5 @@
 https://hub.newphysician.org/
-https://hub.newphysician.org/speaking
-https://hub.newphysician.org/book-finder
+https://hub.newphysician.org/speaking.html
+https://hub.newphysician.org/book-finder.html
+https://hub.newphysician.org/advisory/medico-legal.html
+https://hub.newphysician.org/advisory/vc.html

@@ -29,9 +29,12 @@ Sonny Saggar, MD, is a UK-trained emergency physician, Oxford alumnus (St. Edmun
 *   *The $812 Billion Illusion* (SSRN 6941378): Examines the systemic legal and economic costs of relying on static PDF files and proposes block-semantic trust standards to enable cryptographically verifiable electronic documents.
 *   *Automaticity* (SSRN 6810167): Analyzes the risk of automated legal actions in modern case-management systems, warning of systemic due process failures when algorithms bypass human review.
 
-## 4. Publications
 *   **GROUND** (ASIN: B0H7M7TK1V): A Stoic manual on identity recovery written by hand in custody.
 *   **THE ROAD** (Launching July 27, 2026): A process navigation map for federal criminal defendants.
+
+## 5. Advisory & Medico-Legal Services (Structured Context)
+*   **Medico-Legal Advisory** [Service Profile](https://hub.newphysician.org/advisory/medico-legal.html): Retained expert witness consulting for healthcare billing fraud defense, standard of care evaluations, and EMR audit trail forensics.
+*   **VC & Strategic Advisory** [Service Profile](https://hub.newphysician.org/advisory/vc.html): Clinical evidence due diligence and compliance assessment for digital health/health-AI venture capital transactions post-Loper Bright.
 
 ## 3. Core Question Answers
 ### What is the book GROUND by Sonny Saggar about?

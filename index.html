@@ -105,6 +105,62 @@
       color: var(--text-main);
     }
 
+    /* Dropdown container */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-btn {
+      color: var(--text-muted);
+      text-decoration: none;
+      margin-left: 2rem;
+      font-weight: 500;
+      background: none;
+      border: none;
+      font-family: inherit;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .dropdown-btn:hover {
+      color: var(--text-main);
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #161a21;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+      z-index: 1;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      top: 100%;
+      left: 2rem;
+      margin-top: 0.5rem;
+    }
+
+    .dropdown-content a {
+      color: var(--text-muted);
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      margin-left: 0;
+      font-size: 0.95rem;
+      transition: var(--transition);
+    }
+
+    .dropdown-content a:hover {
+      background-color: rgba(255, 255, 255, 0.03);
+      color: var(--text-main);
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
     main {
       max-width: 1200px;
       margin: 0 auto;
@@ -721,10 +777,18 @@
     <nav>
       <a href="https://newphysician.org">Home</a>
       <a href="https://hub.newphysician.org">The Hub</a>
+      <div class="dropdown">
+        <button class="dropdown-btn">Advisory &amp; MedicoLegal</button>
+        <div class="dropdown-content">
+          <a href="https://hub.newphysician.org/advisory">Overview</a>
+          <a href="/advisory/medico-legal.html">MedicoLegal</a>
+          <a href="/advisory/vc.html">VC and Strategic</a>
+        </div>
+      </div>
       <a href="https://medium.com/@saggarsonny" target="_blank">Medium</a>
       <a href="https://substack.com/@drsonny" target="_blank">Substack</a>
       <a href="https://www.goodreads.com/author/show/151.Sonny_Saggar" target="_blank">Goodreads</a>
-      <a href="/speaking.html">Speaking & Media</a>
+      <a href="/speaking.html">Speaking &amp; Media</a>
     </nav>
   </header>
 

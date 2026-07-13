@@ -740,7 +740,7 @@
     <h2 class="catalog-title">Publications</h2>
     <div class="grid">
       <!-- GROUND Card -->
-      <a href="https://www.amazon.com/dp/B0H7M7TK1V" class="book-card" target="_blank">
+      <a href="https://buy.stripe.com/9B6aEZ7Qzd3rcw2bDz0RG02" class="book-card" target="_blank">
         <div class="cover-container ground-cover">
           <span class="badge">Out Now</span>
           <img src="/ground_new_cover.jpg" alt="GROUND by Sonny Saggar, MD - How to Lose Everything and Still Have Somewhere to Stand" style="width: 100%; height: 100%; object-fit: cover;">
@@ -750,7 +750,7 @@
           <div class="subtitle">How to Lose Everything and Still Have Somewhere to Stand</div>
           <p>A short book about what is left of a person once everything that defined them is gone. Begun by hand inside a federal prison camp, finished after release.</p>
           <div class="actions">
-            <span class="btn btn-primary">Buy on Amazon</span>
+            <span class="btn btn-primary">Buy Now ($5.00)</span>
           </div>
         </div>
       </a>
@@ -833,7 +833,7 @@
       <div class="section-body">
         <p>In addition to his books, Sonny Saggar publishes academic papers on SSRN examining the intersection of administrative law, professional licensing, and federal healthcare enforcement. These papers provide the systemic analysis that forms the structural backdrop of GROUND and THE ROAD.</p>
         
-        <div class="paper-list" id="ssrn-feed-container">
+        <div class="paper-list">
           <div class="paper-item">
             <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6845420" class="paper-title" target="_blank">No One Can Own the Language of Medicine: The Legal and Economic Case for an Open, AI-native Standard for Coding Medical Interventions</a>
             <div class="paper-meta">SSRN Abstract 6845420</div>
@@ -858,28 +858,6 @@
             <p class="paper-desc">A deep dive into the prosecutorial tools used in healthcare compliance audits, illustrating how administrative compliance has been transformed into a criminal liability trap for practicing physicians.</p>
           </div>
         </div>
-
-        <script>
-          fetch('/api/ssrn-feed')
-            .then(res => res.json())
-            .then(data => {
-              const container = document.getElementById('ssrn-feed-container');
-              if (container && data && data.length) {
-                container.innerHTML = '';
-                data.forEach(paper => {
-                  const item = document.createElement('div');
-                  item.className = 'paper-item';
-                  item.innerHTML = `
-                    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=${paper.id}" class="paper-title" target="_blank">${paper.title}</a>
-                    <div class="paper-meta">${paper.meta}</div>
-                    <p class="paper-desc">${paper.desc}</p>
-                  `;
-                  container.appendChild(item);
-                });
-              }
-            })
-            .catch(err => console.log('Error loading dynamic SSRN feed', err));
-        </script>
       </div>
     </section>
 

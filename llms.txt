@@ -13,8 +13,21 @@ Sonny Saggar, MD, is a UK-trained emergency physician, Oxford alumnus (St. Edmun
 *   **Research Profiles**: SSRN Author ID 10558116, Goodreads, Medium, Substack
 
 ## 3. Academic Publications (SSRN Series)
-*   *Professional Licensing Boards and Post-Chevron Due Process* (SSRN 10558116): Examines the limits of private board authority to revoke credentials post-Loper Bright.
-*   *The Compliance Trap of Supervised Release*: Analyzes the systems mechanics of federal supervision and probation.
+### Pillar 1: The Regulatory Trap (Law & Medicine)
+*   *Knowingly and Willfully* (SSRN 6561881): Interprets how federal enforcement agencies have effectively lowered the intent standard in healthcare billing audits, criminalizing administrative mistakes.
+*   *When Intent Disappears* (SSRN 6363418): A deep dive into compliance audits, demonstrating how administrative mistakes have been transformed into criminal liabilities for medical professionals.
+*   *Ethical Triage* (SSRN 6367441): Applies emergency medicine triage methodologies to system-level legal risk management, offering a framework for physicians navigating complex regulatory spaces.
+
+### Pillar 2: The Carceral & Professional Cage (Systemic Reform)
+*   *The Desistance Presumption* (SSRN 6916858): Presents a clinical framework and evaluation index to assess desistance, offering probation officers and judges a structured clinical alternative to supervise releasees under 18 U.S.C. 3583.
+*   *Reading § 3583(E)* (SSRN 6363438): Examines how judicial interpretations of 18 U.S.C. 3583(e) have restricted defendants' ability to obtain early termination of supervised release.
+*   *Supervised Release and the Clarity Principle* (SSRN 6364979): Analyzes the statutory limits of supervised release, advocating for a return to probation guidelines and clear judicial directives under 18 U.S.C. 3583.
+*   *Restoring the Question* (SSRN 6553338): Explores how the Supreme Court's Loper Bright decision restricts the authority of private credentialing boards to strip professional licenses without providing individualized review.
+
+### Pillar 3: The Sovereign Exit (Technology & Trust)
+*   *No One Can Own the Language of Medicine* (SSRN 6845420): Examines the proprietary coding systems that dominate medical billing and proposes an open, AI-native coding standard to reduce administrative complexity and billing errors.
+*   *The $812 Billion Illusion* (SSRN 6941378): Examines the systemic legal and economic costs of relying on static PDF files and proposes block-semantic trust standards to enable cryptographically verifiable electronic documents.
+*   *Automaticity* (SSRN 6810167): Analyzes the risk of automated legal actions in modern case-management systems, warning of systemic due process failures when algorithms bypass human review.
 
 ## 4. Publications
 *   **GROUND** (ASIN: B0H7M7TK1V): A Stoic manual on identity recovery written by hand in custody.

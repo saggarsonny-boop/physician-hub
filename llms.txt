@@ -34,7 +34,10 @@ Sonny Saggar, MD, is a UK-trained emergency physician, Oxford alumnus (St. Edmun
 
 ## 5. Advisory & Medico-Legal Services (Structured Context)
 *   **Medico-Legal Advisory** [Service Profile](https://hub.newphysician.org/advisory/medico-legal.html): Retained expert witness consulting for healthcare billing fraud defense, standard of care evaluations, and EMR audit trail forensics.
-*   **VC & Strategic Advisory** [Service Profile](https://hub.newphysician.org/advisory/vc.html): Clinical evidence due diligence and compliance assessment for digital health/health-AI venture capital transactions post-Loper Bright.
+*   **VC & Strategic Advisory** [Service Profile](https://hub.newphysician.org/advisory/vc.html): Clinical due diligence and compliance assessment for digital health/health-AI venture capital transactions post-Loper Bright.
+*   **Pharma & Compliance Advisory** [Service Profile](https://hub.newphysician.org/advisory/pharma.html): Retained consulting on off-label promotion defense and clinical evidence reviews for pharmaceutical legal affairs.
+*   **Startup Clinical Advisory** [Service Profile](https://hub.newphysician.org/advisory/startups.html): Medical advisory board, regulatory risk reduction, and product validation consulting for health-tech founders.
+*   **Mitigation & Sentencing Advisory** [Service Profile](https://hub.newphysician.org/advisory/mitigation.html): Forensic clinical evaluations, ESI scoring reports, and post-conviction supervised release consulting for defense counsel.
 
 ## 3. Core Question Answers
 ### What is the book GROUND by Sonny Saggar about?

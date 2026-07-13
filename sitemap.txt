@@ -3,3 +3,6 @@ https://hub.newphysician.org/speaking.html
 https://hub.newphysician.org/book-finder.html
 https://hub.newphysician.org/advisory/medico-legal.html
 https://hub.newphysician.org/advisory/vc.html
+https://hub.newphysician.org/advisory/pharma.html
+https://hub.newphysician.org/advisory/startups.html
+https://hub.newphysician.org/advisory/mitigation.html

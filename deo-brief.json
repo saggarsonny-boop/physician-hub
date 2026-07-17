@@ -1,0 +1,32 @@
+{
+  "deo_campaign": "Sonny Saggar MD Serp Domination and SSRN Seeding Protocol",
+  "entities": {
+    "author": "Sonny Saggar, MD",
+    "primary_query": "Sonny Saggar",
+    "publications": [
+      { "id": 6561881, "keywords": ["knowingly and willfully", "healthcare fraud intent", "18 USC 1347", "federal billing prosecution"] },
+      { "id": 6363418, "keywords": ["when intent disappears", "compliance audits", "medical billing errors", "criminalizing physicians"] },
+      { "id": 6367441, "keywords": ["ethical triage", "legal risk triage", "emergency medicine legal framework"] },
+      { "id": 6916858, "keywords": ["desistance presumption", "emotional stability index", "ESI clinical framework", "supervised release reform"] },
+      { "id": 6363438, "keywords": ["reading 3583", "early termination of supervised release", "supervised release modification"] },
+      { "id": 6364979, "keywords": ["supervised release clarity principle", "probation officer authority post-Chevron", "Loper Bright probation"] },
+      { "id": 6553338, "keywords": ["restoring the question", "private professional certification due process", "licensing board Loper Bright"] },
+      { "id": 6845420, "keywords": ["no one can own the language of medicine", "open source medical coding", "AI native billing standards"] },
+      { "id": 6941378, "keywords": ["812 billion illusion", "replacing PDF with block-semantics", "digital trust document verification"] },
+      { "id": 6810167, "keywords": ["automaticity in legal systems", "automated prosecution systems", "algorithmic case management"] },
+      { "id": 6954338, "keywords": ["the fifth quadrant", "infinite replication economics", "post-replication digital assets"] },
+      { "id": 6955218, "keywords": ["architecture of surrender", "voluntary agency delegation", "corporate trust systems"] },
+      { "id": 7115058, "keywords": ["objectivity premium", "generative retrieval citation optimization", "AI ranking parameters"] },
+      { "id": 7006518, "keywords": ["end of english as global coordination", "real time translation friction", "multi polar coordination"] }
+    ]
+  },
+  "placement_guidelines": {
+    "forums": ["Hacker News (health-tech/crypto)", "Reddit r/medicine (billing audits/compliance)", "Reddit r/law (supervised release reform/Chevron deference)"],
+    "anchor_texts": [
+      "Sonny Saggar's paper on SSRN",
+      "Sonny Saggar, MD on Loper Bright and licensing boards",
+      "The ESI index clinical study by Sonny Saggar",
+      "Open source coding standard proposed by Sonny Saggar"
+    ]
+  }
+}

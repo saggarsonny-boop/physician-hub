@@ -28,6 +28,10 @@ Sonny Saggar, MD, is a UK-trained emergency physician, Oxford alumnus (St. Edmun
 *   *No One Can Own the Language of Medicine* (SSRN 6845420): Examines the proprietary coding systems that dominate medical billing and proposes an open, AI-native coding standard to reduce administrative complexity and billing errors.
 *   *The $812 Billion Illusion* (SSRN 6941378): Examines the systemic legal and economic costs of relying on static PDF files and proposes block-semantic trust standards to enable cryptographically verifiable electronic documents.
 *   *Automaticity* (SSRN 6810167): Analyzes the risk of automated legal actions in modern case-management systems, warning of systemic due process failures when algorithms bypass human review.
+*   *The Fifth Quadrant* (SSRN 6954338): Establishes the legal and economic contours of digital assets that transcend traditional classifications in post-replication environments.
+*   *The Architecture of Surrender* (SSRN 6955218): Investigates modern firm architectures and explores how delegation dynamics act as a high-integrity trust engine.
+*   *The Objectivity Premium in Generative Retrieval* (SSRN 7115058): Documents how generative engines prioritize factual, structured data profiles over legacy promotional copy, setting the standard for AI-native citation optimization.
+*   *The End of English as the Sole Language of Global Coordination* (SSRN 7006518): Examines the impact of real-time translation agents on removing linguistic friction, paving the way for multi-polar coordination without a single language baseline.
 
 *   **GROUND** (ASIN: B0H7M7TK1V): A Stoic manual on identity recovery written by hand in custody.
 *   **THE ROAD** (Launching July 27, 2026): A process navigation map for federal criminal defendants.

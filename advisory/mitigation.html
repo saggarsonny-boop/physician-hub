@@ -16,25 +16,35 @@
   <meta property="og:url" content="https://newphysician.org/advisory/mitigation">
   <meta property="og:title" content="Federal Sentencing Mitigation &amp; ESI Clinical Expert | Sonny Saggar, MD">
   <meta property="og:description" content="Federal sentencing mitigation expert physician consulting on supervised release, pre-sentence reports, and the Emotional Stability Index (ESI) framework.">
-  <meta property="og:image" content="https://images-na.ssl-images-amazon.com/images/P/B0H7M7TK1V.01.LZZZZZZZ.jpg">
+  <meta property="og:image" content="https://hub.newphysician.org/shield-logo.png">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://newphysician.org/advisory/mitigation">
   <meta property="twitter:title" content="Federal Sentencing Mitigation &amp; ESI Clinical Expert | Sonny Saggar, MD">
   <meta property="twitter:description" content="Federal sentencing mitigation expert physician consulting on supervised release, pre-sentence reports, and the Emotional Stability Index (ESI) framework.">
-  <meta property="twitter:image" content="https://images-na.ssl-images-amazon.com/images/P/B0H7M7TK1V.01.LZZZZZZZ.jpg">
+  <meta property="twitter:image" content="https://hub.newphysician.org/shield-logo.png">
 
   <style>
+    /* ==========================================================================
+       THE NEW PHYSICIAN - EXACT FRONT DOOR STYLING ALIGNMENT
+       ========================================================================== */
+
     :root {
-      --bg-color: #0d0f12;
-      --card-bg: rgba(22, 26, 33, 0.7);
+      --bg-dark: #0a0a0a;
+      --bg-card: rgba(22, 26, 33, 0.75);
       --border-color: rgba(255, 255, 255, 0.08);
-      --text-main: #f3f4f6;
-      --text-muted: #9ca3af;
-      --accent-color: #d4af37; /* Gold */
-      --accent-hover: #b45309;
-      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      --text-main: #d4d4d4;
+      --text-muted: #a3a3a3;
+      --accent-gold: #D4AF37;
+      --font-sans: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-display: "Playfair Display", Georgia, serif;
+    }
+
+    /* Global Selection & Core Styling */
+    ::selection {
+      background-color: var(--accent-gold);
+      color: #000000;
     }
 
     * {
@@ -44,105 +54,157 @@
     }
 
     body {
-      background-color: var(--bg-color);
+      background-color: var(--bg-dark);
       color: var(--text-main);
-      font-family: 'Outfit', sans-serif;
-      line-height: 1.6;
-      overflow-x: hidden;
+      font-family: var(--font-sans);
+      line-height: 1.7;
+      padding-top: 120px;
     }
 
+    /* Subtle Kintsugi Top Border */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(to right, transparent, var(--accent-gold), transparent);
+      z-index: 10000;
+      opacity: 0.8;
+    }
+
+    /* Sticky Glassmorphic Header Navigation */
     header {
-      padding: 2rem 5%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 80px;
+      background-color: rgba(10, 10, 10, 0.8);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-color);
+      z-index: 1000;
+    }
+
+    .header-container {
+      max-width: 72rem; /* max-w-6xl */
+      height: 100%;
+      margin: 0 auto;
+      padding: 0 1.5rem; /* px-6 */
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 1px solid var(--border-color);
-      backdrop-filter: blur(12px);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: rgba(13, 15, 18, 0.8);
     }
 
-    .logo {
-      font-size: 1.5rem;
-      font-weight: 800;
-      letter-spacing: 1px;
-      color: var(--text-main);
+    /* Logo Styling matching page.tsx line 130-133 */
+    header .logo {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: 0.05em; /* tracking-wider */
+      color: #FFFFFF;
       text-decoration: none;
+      display: inline-block;
     }
 
-    .logo span {
-      color: var(--accent-color);
+    .logo-underline {
+      height: 2px;
+      width: 100%;
+      background-color: var(--accent-gold);
+      margin-top: 4px;
+      opacity: 0.5;
     }
 
-    nav {
+    header nav {
       display: flex;
       align-items: center;
-    }
-
-    nav a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin-left: 2rem;
+      gap: 2rem; /* gap-8 */
+      font-size: 0.875rem; /* text-sm */
       font-weight: 500;
-      transition: var(--transition);
+      letter-spacing: 0.025em; /* tracking-wide */
     }
 
-    nav a:hover {
-      color: var(--text-main);
+    header nav a {
+      color: #a3a3a3; /* text-neutral-400 */
+      text-decoration: none;
+      transition: color 0.2s ease;
     }
 
-    /* Dropdown container */
+    header nav a:hover, header nav a.active {
+      color: var(--accent-gold);
+    }
+
+    /* Enter Hub Button styling matching Next.js page.tsx line 135 */
+    .enter-hub-btn {
+      color: var(--accent-gold) !important;
+      border: 1px solid rgba(212, 175, 55, 0.5);
+      padding: 0.375rem 1rem; /* px-4 py-1.5 */
+      border-radius: 9999px; /* rounded-full */
+      font-weight: 700;
+      transition: background-color 0.2s ease;
+    }
+
+    .enter-hub-btn:hover {
+      background-color: rgba(212, 175, 55, 0.1);
+    }
+
+    /* Universal Dropdown Nav styling */
     .dropdown {
       position: relative;
       display: inline-block;
     }
 
     .dropdown-btn {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin-left: 2rem;
-      font-weight: 500;
       background: none;
       border: none;
-      font-family: inherit;
-      font-size: 1rem;
+      color: #a3a3a3;
+      font-family: var(--font-sans);
+      font-size: 0.875rem;
+      font-weight: 500;
       cursor: pointer;
-      transition: var(--transition);
+      padding: 8px 0;
+      letter-spacing: 0.025em;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.2s ease;
     }
 
-    .dropdown-btn:hover {
-      color: var(--text-main);
+    .dropdown:hover .dropdown-btn {
+      color: var(--accent-gold);
     }
 
     .dropdown-content {
       display: none;
       position: absolute;
-      background-color: #161a21;
-      min-width: 200px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
-      z-index: 1;
+      top: 100%;
+      left: 0;
+      background-color: #121212;
       border: 1px solid var(--border-color);
       border-radius: 8px;
-      top: 100%;
-      left: 2rem;
-      margin-top: 0.5rem;
+      min-width: 240px;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
+      z-index: 100;
+      padding: 8px 0;
+      margin-top: 4px;
     }
 
     .dropdown-content a {
-      color: var(--text-muted);
-      padding: 12px 16px;
+      color: #a3a3a3;
+      padding: 10px 18px;
       text-decoration: none;
       display: block;
+      font-size: 0.85rem;
+      font-weight: 400;
       margin-left: 0;
-      font-size: 0.95rem;
-      transition: var(--transition);
+      transition: background-color 0.2s ease, color 0.2s ease;
     }
 
     .dropdown-content a:hover {
-      background-color: rgba(255, 255, 255, 0.03);
-      color: var(--text-main);
+      background-color: rgba(255, 255, 255, 0.04);
+      color: #FFFFFF;
     }
 
     .dropdown:hover .dropdown-content {
@@ -151,30 +213,32 @@
 
     main {
       max-width: 900px;
-      margin: 0 auto;
-      padding: 6rem 5%;
+      margin: 4rem auto;
+      padding: 0 2rem;
     }
 
     h1, h2, h3 {
-      font-family: 'Playfair Display', serif;
-      margin-bottom: 1.5rem;
+      font-family: var(--font-display);
+      color: #FFFFFF;
     }
 
     h1 {
-      font-size: 3.2rem;
+      font-size: 2.8rem;
       font-weight: 700;
-      letter-spacing: -1px;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.5px;
       line-height: 1.2;
     }
 
     .subtitle {
-      font-size: 1.3rem;
-      color: var(--text-muted);
+      font-size: 1.25rem;
+      color: #a3a3a3;
       margin-bottom: 3rem;
+      font-weight: 300;
     }
 
     section {
-      margin-bottom: 5rem;
+      margin-bottom: 4rem;
     }
 
     p {
@@ -183,47 +247,44 @@
       font-size: 1.05rem;
     }
 
-    .cta-btn {
-      display: inline-block;
-      background: var(--accent-color);
-      color: #0d0f12;
-      padding: 0.85rem 2rem;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 700;
-      transition: var(--transition);
-    }
-
-    .cta-btn:hover {
-      background: #b48a1c;
-      transform: translateY(-2px);
-    }
-
-    .topic-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 2rem;
-      margin: 3rem 0;
-    }
-
     .topic-card {
-      background: var(--card-bg);
+      background: rgba(22, 26, 33, 0.35); /* semi-transparent card matching global specs */
       border: 1px solid var(--border-color);
       border-radius: 12px;
-      padding: 2.5rem;
-      transition: var(--transition);
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
     }
 
     .topic-card:hover {
       border-color: rgba(212, 175, 55, 0.3);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
     }
 
     .topic-card h3 {
-      color: var(--accent-color);
-      font-size: 1.4rem;
-      margin-bottom: 1rem;
+      margin-top: 0;
+      color: var(--accent-gold);
+      font-size: 1.35rem;
+      margin-bottom: 0.75rem;
     }
 
+    .cta-btn {
+      display: inline-block;
+      background: var(--accent-gold);
+      color: #000;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .cta-btn:hover {
+      background-color: #f3e5ab;
+      transform: translateY(-1px);
+    }
+
+    /* Unique/Custom subpage rules */
     .price-list {
       margin: 2rem 0;
       list-style-type: none;
@@ -238,7 +299,7 @@
     }
 
     .price-list li strong {
-      color: var(--text-main);
+      color: #FFFFFF;
     }
 
     .paper-list {
@@ -246,7 +307,7 @@
     }
 
     .paper-item {
-      background: var(--card-bg);
+      background: rgba(22, 26, 33, 0.35);
       border: 1px solid var(--border-color);
       border-radius: 12px;
       padding: 2rem;
@@ -255,7 +316,7 @@
 
     .paper-title {
       font-size: 1.25rem;
-      color: var(--accent-color);
+      color: var(--accent-gold);
       text-decoration: none;
       font-weight: 600;
       display: block;
@@ -280,13 +341,24 @@
       display: none;
     }
 
+    /* Footer Styling */
     footer {
       border-top: 1px solid var(--border-color);
-      padding: 3rem 5%;
+      padding: 48px 0;
       text-align: center;
-      color: var(--text-muted);
-      font-size: 0.95rem;
-      margin-top: 8rem;
+      font-size: 0.85rem;
+      color: #a3a3a3;
+      margin-top: 96px;
+    }
+
+    footer a {
+      color: var(--accent-gold);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    footer a:hover {
+      color: #FFFFFF;
     }
   </style>
 
@@ -328,26 +400,31 @@
 <body>
 
   <header>
-    <a href="https://newphysician.org" class="logo">The New<span>Physician</span></a>
-    <nav>
-      <a href="https://newphysician.org">Home</a>
-      <a href="https://hub.newphysician.org">The Hub</a>
-      <div class="dropdown">
-        <button class="dropdown-btn">Advisory &amp; MedicoLegal</button>
-        <div class="dropdown-content">
-          <a href="https://hub.newphysician.org/advisory">Overview</a>
-          <a href="/advisory/medico-legal.html">MedicoLegal</a>
-          <a href="/advisory/vc.html">VC and Strategic</a>
-          <a href="/advisory/pharma.html">Pharma and Compliance</a>
-          <a href="/advisory/startups.html">Startups and Digital Health</a>
-          <a href="/advisory/mitigation.html">Mitigation and Sentencing</a>
+    <div class="header-container">
+      <a href="https://newphysician.org" class="logo">
+        THE NEW PHYSICIAN
+        <div class="logo-underline"></div>
+      </a>
+      <nav>
+        <a href="https://newphysician.org">Home</a>
+        <a href="https://hub.newphysician.org" class="enter-hub-btn">Enter Hub</a>
+        <div class="dropdown">
+          <button class="dropdown-btn">Advisory &amp; MedicoLegal</button>
+          <div class="dropdown-content">
+            <a href="https://hub.newphysician.org/advisory">Overview</a>
+            <a href="/advisory/medico-legal.html">MedicoLegal</a>
+            <a href="/advisory/vc.html">VC and Strategic</a>
+            <a href="/advisory/pharma.html">Pharma and Compliance</a>
+            <a href="/advisory/startups.html">Startups and Digital Health</a>
+            <a href="/advisory/mitigation.html">Mitigation and Sentencing</a>
+          </div>
         </div>
-      </div>
-      <a href="https://medium.com/@saggarsonny" target="_blank">Medium</a>
-      <a href="https://substack.com/@drsonny" target="_blank">Substack</a>
-      <a href="https://www.goodreads.com/author/show/151.Sonny_Saggar" target="_blank">Goodreads</a>
-      <a href="/speaking.html">Speaking &amp; Media</a>
-    </nav>
+        <a href="https://medium.com/@saggarsonny" target="_blank">Medium</a>
+        <a href="https://substack.com/@drsonny" target="_blank">Substack</a>
+        <a href="https://www.goodreads.com/author/show/151.Sonny_Saggar" target="_blank">Goodreads</a>
+        <a href="/speaking.html">Speaking &amp; Media</a>
+      </nav>
+    </div>
   </header>
 
   <main>
